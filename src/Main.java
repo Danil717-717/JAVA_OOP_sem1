@@ -4,12 +4,14 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        List<VendingMachine> vm = new ArrayList<>();
-        vm.add(new VendingMachine());
-        vm.add(new DrinkVendMash());
+//        List<VendingMachine> vm = new ArrayList<>();
+//        vm.add(new VendingMachine());
+//        vm.add(new DrinkVendMash());
+//
+//        for (VendingMachine i : vm) {
+//            i.restore();
+//        }
 
-        for (VendingMachine i : vm) {
-            i.restore();
-        }
+
     }
 }

@@ -10,12 +10,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class VendingMachine {
+public abstract class VendingMachine {
     public static void main(String[] args) {
-
-
-
-
 
 
         List<Product> productList = new ArrayList<>();
@@ -28,6 +24,9 @@ public class VendingMachine {
         }
 
     }
+
+    protected abstract void getProduct();
+
     void initProducts(List<Product> productList){
         Product product1 = new Product("Шоколад", 150);
         Product  product2 = new Ets(2.0,100.0);
@@ -40,7 +39,10 @@ public class VendingMachine {
 
     }
 
+
     public void restore(){
         System.out.println("Продукт выдан");
     }
+
+
 }
